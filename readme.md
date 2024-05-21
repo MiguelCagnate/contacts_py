@@ -11,6 +11,7 @@ ContactBookApp is a simple contact management application built using Python and
     - [Steps](#steps)
   - [Usage](#usage)
   - [Code Structure](#code-structure)
+    - [Explanation:](#explanation)
     - [Example](#example)
 - [main.py](#mainpy)
 
@@ -53,6 +54,15 @@ ContactBookApp is a simple contact management application built using Python and
 - `contact_book_app.py`: Contains the `ContactBookApp` class which handles the GUI using `tkinter`.
 - `main.py`: The main script that initializes and runs the application.
 
+### Explanation:
+- **Features**: Lists the main functionalities of the app.
+- **Installation**: Provides steps to install and set up the project.
+- **Usage**: Explains how to run the application and use its features.
+- **Code Structure**: Briefly describes the purpose of each module.
+- **Contributing**: Encourages contributions and outlines the steps to contribute.
+- **License**: Specifies the project's license.
+
+
 ### Example
 
 ```python
@@ -60,7 +70,10 @@ ContactBookApp is a simple contact management application built using Python and
 import tkinter as tk
 from contact_book_app import ContactBookApp
 
+
+
 if __name__ == "__main__":
     root = tk.Tk()
     app = ContactBookApp(root)
     root.mainloop()
+
